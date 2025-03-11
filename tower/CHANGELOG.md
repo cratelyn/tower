@@ -43,6 +43,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **filter**: Derive `Clone` for `AsyncFilterLayer` ([#731])
 - **general**: Update IndexMap ([#741])
 - **MSRV**: Increase MSRV to 1.63.0 ([#741])
+- **buffer**: **Breaking Change** `Buffer<S, Request>` is now generic over `Buffer<Request, S::Future>. ([#654])
 
 [#702]: https://github.com/tower-rs/tower/pull/702
 [#652]: https://github.com/tower-rs/tower/pull/652
@@ -57,6 +58,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 [#716]: https://github.com/tower-rs/tower/pull/716
 [#731]: https://github.com/tower-rs/tower/pull/731
 [#741]: https://github.com/tower-rs/tower/pull/741
+[#654]: https://github.com/tower-rs/tower/pull/654
 
 # 0.4.12 (February 16, 2022)
 
